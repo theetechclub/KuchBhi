@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">Kuch Bhi</string>
     <string name="first_line">A home automation app starting&#8230; so stick to this app</string>
+    <string name="search_title">Search for devices</string>
+    <string name="searchButtonTitle">Search Now</string>
+    <string name="search_help">Select a device to connect</string>
+
+    <array name="search_list0">
+        <item>Click on search button to search</item>
+    </array>
+    <array name="search_list">
+        <item>Demo Device 01</item>
+        <item>Demo Device 02</item>
+        <item>Demo Device 03</item>
+        <item>Demo Device 04</item>
+        <item>Demo Device 05</item>
+        <item>Demo Device 06</item>
+        <item>Demo Device 07</item>
+        <item>Demo Device 08</item>
+        <item>Demo Device 09</item>
+        <item>Demo Device 10</item>
+    </array>
 </resources>
