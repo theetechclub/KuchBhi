@@ -4,6 +4,13 @@
     <string name="search_title">Search for devices</string>
     <string name="searchButtonTitle">Search Now</string>
     <string name="search_help">Select a device to connect</string>
+    <string name="compeleteConnection_title">Connect to</string>
+    <string name="compeleteConnection_name">Name</string>
+    <string name="compeleteConnection_password">Password</string>
+    <string name="completeConnection_newDevice">New Device</string>
+    <string name="completeConnection_connectButton">Connect to Home</string>
+    <string name="completeConnectionHint_EnterNewName">Enter New Name</string>
+    <string name="completeConnectionHint_SetupNewPassword">Setup New Password</string>
 
     <array name="search_list0">
         <item>Click on search button to search</item>
