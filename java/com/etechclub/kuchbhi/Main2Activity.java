@@ -68,9 +68,9 @@ public class Main2Activity extends AppCompatActivity implements Runnable {
         Log.e("Pass 1", "Entry level list clear");
         boolean check = true;
         try {
-            /*Log.e("Pass 1.0.1", "Going in big nap");
-            Thread.sleep(5000);
-            Log.e("Pass 1.0.1", "Aaah that was a real big nap....");*/
+            Log.e("Pass 1.0.1", "Going in big nap");
+            Thread.sleep(20000);
+            Log.e("Pass 1.0.1", "Aaah that was a real big nap....");
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             Log.e("Pass 1.0", "Line 1 Executed");
             StrictMode.setThreadPolicy(policy);
