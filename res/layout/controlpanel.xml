@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="ON or OFF switch"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnOn"
+                android:layout_width="wrap_content"
+                android:padding="20dip"
+                android:layout_height="wrap_content"
+                android:text="Turn On Switch" />
+
+            <Button
+                android:id="@+id/btnOff"
+                android:layout_width="wrap_content"
+                android:padding="20dip"
+                android:layout_height="wrap_content"
+                android:text="Turn OFF Switch" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule switch"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <Button
+        android:id="@+id/setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Set This Time" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="ON"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/setTime"
+        android:layout_toStartOf="@+id/setTime" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="OFF"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/setTime"
+        android:layout_toEndOf="@+id/setTime" />
+</RelativeLayout>
